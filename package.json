@@ -1,0 +1,37 @@
+{
+    "name": "vscode-djangoinspire-theme",
+    "displayName": "Python Djangoinspire green theme for VS Code",
+    "description": "Python theme from old-time Komodo IDE green theme DjangoInspire",
+    "version": "1.0.1",
+    "publisher": "ydanilin",
+    "repository": {
+        "type": "GitHub",
+        "url": "https://github.com/ydanilin/vscode-djangoinspire-theme"
+      },
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Djangoinspire",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Djangoinspire.color-theme.json"
+            }
+        ],
+        "languages": [{
+            "id": "python",
+            "aliases": ["Python3", "Python"],
+            "extensions": [".py",".py3",".rpy",".pyw",".cpy"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "python",
+            "scopeName": "source.python",
+            "path": "./syntaxes/MagicPython.tmLanguage.json"
+        }]
+    }
+}

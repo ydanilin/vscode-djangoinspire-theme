@@ -1,0 +1,10 @@
+
+https://github.com/tstone/Kolormodo
+http://codesucksmybrain.blogspot.com/2011/09/how-to-add-django-color-schemes-in.html
+
+https://github.com/MattDMo/PythonImproved (broken)
+https://github.com/Microsoft/vscode/blob/master/extensions/python/syntaxes/MagicPython.tmLanguage.json - VALID!
+
+yo code
+  - New Language Support
+  
